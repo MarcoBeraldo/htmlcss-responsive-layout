@@ -13,22 +13,43 @@
     --blue: #0084FD;
     --lightblue: #B5DDFF;
     --orange: #FDC15F;
-
+    --black: #333333;
 }
 
 /* utils */
 
+.debug .borders {
+    border: 1px solid black;
+}
+
 .container {
     max-width: 1200px;
+    margin: auto;
+}
+
+.small-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
 }
 
-.col {}
-
-.large-col {}
+.col {
+    width: 100%;
+}
 
 .bgc-purple {
     background-color: var(--purple);
@@ -40,4 +61,56 @@
 
 .bgc-lightblue {
     background-color: var(--lightblue);
+}
+
+.bgc-white {
+    background-color: white;
+}
+
+/* header */
+
+header {
+    height: 80px;
+}
+
+header .nav-bar {
+    display: none;
+}
+
+header .nav-bar ul {
+    list-style-type: none;
+}
+
+/* main */
+
+/* section #demo */
+
+#demo {
+    padding: 50px 30px;
+}
+
+#demo .col {
+    margin-bottom: 20px;
+}
+
+#demo .card {
+    min-height: 500px;
+}
+
+#demo .large-col {
+    margin-bottom: 20px;
+}
+
+#demo .large-card {
+    min-height: 500px;
+}
+
+/* section #planning */
+
+#planning {
+    padding: 50px 30px;
+}
+
+#planning figure {
+    min-height: 400px;
 }
