@@ -42,6 +42,18 @@
     #testimonials figure {
         margin: 0;
     }
+
+    /* section #work-with-us */
+
+    #work-with-us .row {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #work-with-us .col {
+        width: calc(100% / 2);
+    }
 }
 
 
@@ -67,6 +79,12 @@
 
     #planning .row {
         width: 100%;
+    }
+
+    /* section #work-with-us */
+
+    #work-with-us .col {
+        width: calc(100% / 3);
     }
 
 }
