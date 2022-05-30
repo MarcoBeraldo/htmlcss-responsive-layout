@@ -36,27 +36,35 @@
     #planning .col {
         margin: 20px;
     }
-}
 
-@media screen and (min-width: 992px) {
+    /* section #testimonials */
 
-    /* header */
-
-    header .nav-bar {
-        display: inline-block;
+    #testimonials figure {
+        margin: 0;
     }
 
-    header nav {
-        display: none;
-    }
 
-    /* section #planning */
 
-    #planning .col {
-        max-width: calc(100% / 2 - 40px)
-    }
 
-    #planning .row {
-        width: 100%;
+    @media screen and (min-width: 992px) {
+
+        /* header */
+
+        header .nav-bar {
+            display: inline-block;
+        }
+
+        header nav {
+            display: none;
+        }
+
+        /* section #planning */
+
+        #planning .col {
+            max-width: calc(100% / 2 - 40px)
+        }
+
+        #planning .row {
+            width: 100%;
+        }
     }
-}

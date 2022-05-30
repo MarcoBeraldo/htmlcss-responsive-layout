@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+section {
+    padding: 50px 30px;
+}
+
 /* roots */
 
 :root {
@@ -85,10 +89,6 @@ header .nav-bar ul {
 
 /* section #demo */
 
-#demo {
-    padding: 50px 30px;
-}
-
 #demo .col {
     margin-bottom: 20px;
 }
@@ -107,10 +107,33 @@ header .nav-bar ul {
 
 /* section #planning */
 
-#planning {
-    padding: 50px 30px;
-}
-
 #planning figure {
     min-height: 400px;
+}
+
+/* section #testimonials */
+
+#testimonials figure {
+    display: inline-block;
+    margin: 0 auto;
+    width: 20%;
+    height: 100px;
+}
+
+#testimonials {
+    text-align: center;
+}
+
+#testimonials .card {
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
 }
