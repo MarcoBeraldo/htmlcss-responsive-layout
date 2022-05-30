@@ -137,3 +137,16 @@ header .nav-bar ul {
     width: 80%;
     text-align: center;
 }
+
+/* #work-with-us section */
+
+#work-with-us .col {
+    width: 100%;
+    min-height: 500px;
+}
+
+#work-with-us .card {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 500px;
+}
