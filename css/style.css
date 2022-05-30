@@ -1,0 +1,43 @@
+/* generics */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* roots */
+
+:root {
+    --purple: #9792E4;
+    --blue: #0084FD;
+    --lightblue: #B5DDFF;
+    --orange: #FDC15F;
+
+}
+
+/* utils */
+
+.container {
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {}
+
+.large-col {}
+
+.bgc-purple {
+    background-color: var(--purple);
+}
+
+.bgc-blue {
+    background-color: var(--blue);
+}
+
+.bgc-lightblue {
+    background-color: var(--lightblue);
+}
