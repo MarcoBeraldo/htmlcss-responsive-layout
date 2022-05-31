@@ -74,7 +74,8 @@
     }
 
     #work-with-us .col {
-        width: calc(100% / 2);
+        width: calc(100% / 2 - 40px);
+        margin: 20px;
     }
 
     #about-us .container {
@@ -142,7 +143,7 @@
     /* section #work-with-us */
 
     #work-with-us .col {
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 60px);
     }
 
 }

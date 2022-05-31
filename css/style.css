@@ -344,15 +344,53 @@ header .btn-white {
 
 /* #work-with-us section */
 
+#work-with-us .row {
+    justify-content: center;
+}
+
 #work-with-us .col {
     width: 100%;
     min-height: 500px;
 }
 
+#work-with-us h2 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#work-with-us h3 {
+    margin: 30px 0;
+}
+
+#work-with-us p {
+    line-height: 30px;
+    color: var(--black);
+}
+
+#work-with-us a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+
 #work-with-us .card {
+    color: var(--purple);
     margin-top: 20px;
     width: 100%;
-    min-height: 500px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+#work-with-us span {
+    font-size: 54px;
+    font-weight: 700;
 }
 
 /* #about-us section */
