@@ -83,13 +83,15 @@
     }
 
     .about-us-text {
-        width: 70%;
+        width: 60%;
         padding-right: 60px;
     }
 
     .about-us-side {
-        width: 30%;
+        width: 40%;
     }
+
+    #about-us .btn-purple {}
 }
 
 
