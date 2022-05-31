@@ -15,6 +15,10 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+h3 {
+    font-size: 32px;
+}
+
 /* roots */
 
 :root {
@@ -23,6 +27,7 @@ body {
     --lightblue: #B5DDFF;
     --orange: #FDC15F;
     --black: #333333;
+    --gray: #5A6E7F;
 }
 
 /* utils */
@@ -45,6 +50,11 @@ body {
     display: flex;
 }
 
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -65,6 +75,7 @@ body {
     background-color: var(--purple);
 }
 
+.btn-blue,
 .bgc-blue {
     background-color: var(--blue);
 }
@@ -130,16 +141,74 @@ header .btn-white {
 }
 
 #demo .card {
-    min-height: 500px;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #demo .large-col {
     margin-bottom: 20px;
 }
 
+#demo .d-flex-col,
 #demo .large-card {
-    min-height: 500px;
+    padding: 30px 30px 0 30px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#demo h3 {
+    display: inline-block;
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+
+#demo .card p,
+#demo .large-card p {
+    line-height: 30px;
+    color: var(--gray);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#demo .demo-img {
+    height: 350px;
+    display: block;
+}
+
+#demo .large-card a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 50px 0;
+    padding: 10px 50px;
+    border-radius: 25px;
+}
+
+#demo .fa-apple {
+    margin-right: 10px;
+}
+
+#demo .fa-file-code,
+#demo .fa-compass-drafting,
+#demo .fa-laptop-code,
+#demo .fa-bullhorn {
+    margin-bottom: 30px;
+    display: block;
+    color: var(--blue);
+}
+
+#demo .card p {
+    text-align: center;
+}
+
+
 
 /* section #planning */
 

@@ -7,6 +7,7 @@
 
     #demo {
         padding: 0;
+        margin-top: 100px;
     }
 
     #demo .col {
@@ -25,6 +26,16 @@
 
     #demo .large-card {
         max-width: 100%;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    #demo .d-flex-col {
+        align-items: flex-start;
+    }
+
+    #demo .demo-img {
+        margin-bottom: -30px;
     }
 
     /* section #planning */
@@ -82,6 +93,24 @@
 
     header nav {
         display: none;
+    }
+
+    /* #demo section */
+
+
+
+    #demo .large-card {
+        flex-direction: row;
+    }
+
+    #demo .demo-img {
+        align-self: flex-end;
+
+        margin-bottom: -30px;
+    }
+
+    #demo .large-card p {
+        width: 70%;
     }
 
     /* section #planning */
