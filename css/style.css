@@ -10,6 +10,10 @@ section {
     padding: 50px 30px;
 }
 
+body {
+    margin-top: 80px;
+}
+
 /* roots */
 
 :root {
@@ -71,10 +75,19 @@ section {
     background-color: white;
 }
 
+.bgc-black {
+    background-color: var(--black);
+}
+
 /* header */
 
 header {
     height: 80px;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 header .nav-bar {
@@ -149,4 +162,19 @@ header .nav-bar ul {
     margin-top: 20px;
     width: 100%;
     min-height: 500px;
+}
+
+/* #about-us section */
+
+
+/* get-started section */
+
+#get-started {
+    height: 400px;
+}
+
+/* footer */
+
+footer {
+    min-height: 400px;
 }

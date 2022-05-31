@@ -54,6 +54,19 @@
     #work-with-us .col {
         width: calc(100% / 2);
     }
+
+    #about-us .container {
+        display: flex;
+    }
+
+    .about-us-text {
+        width: 70%;
+        padding-right: 60px;
+    }
+
+    .about-us-side {
+        width: 30%;
+    }
 }
 
 
