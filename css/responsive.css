@@ -50,8 +50,19 @@
 
     /* section #testimonials */
 
+
+
     #testimonials figure {
         margin: 0;
+        width: 200px;
+        height: 200px;
+    }
+
+    #testimonials .card-text {
+        max-width: 70%;
+        text-align: left;
+        padding-left: 50px;
+
     }
 
     /* section #work-with-us */

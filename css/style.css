@@ -272,27 +272,74 @@ header .btn-white {
 #testimonials figure {
     justify-content: center;
     display: inline-block;
-    margin: 0 auto;
+    margin: 30px 0;
     width: 20%;
-    height: 100px;
+
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#first-testimonial {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+#second-testimonial {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+#third-testimonial {
+    background-image: url(../img/testimonial3.jpg);
 }
 
 #testimonials {
     text-align: center;
 }
 
+#testimonials h2 {
+    font-size: 32px;
+    color: var(--purple);
+    margin: 30px 0;
+}
+
+#testimonials p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
 #testimonials .card {
+    color: white;
     width: 100%;
     margin: 30px auto;
     padding: 20px;
     align-items: center;
+    border-radius: 25px;
 }
 
 .card-text {
+    line-height: 40px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
     width: 80%;
     text-align: center;
+}
+
+.card-text p {
+    margin-bottom: 30px;
+}
+
+.fa-quote-left {
+    margin-right: 5px;
+}
+
+.fa-quote-right {
+    margin-left: 5px;
 }
 
 /* #work-with-us section */
