@@ -213,12 +213,64 @@ header .btn-white {
 /* section #planning */
 
 #planning figure {
-    min-height: 400px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+#planning figure img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+#planning h2 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+#planning p {
+    color: white;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#planning .bgc-white img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+#planning .bgc-white {
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#planning .bgc-white p {
+    margin-top: 10px;
+    color: black;
+    font-style: italic;
+}
+
+#planning a {
+    display: inline-block;
+    background-color: var(--purple);
+    color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    line-height: 60px;
+}
+
+#planning .fa-arrow-down {
+    vertical-align: middle;
 }
 
 /* section #testimonials */
 
 #testimonials figure {
+    justify-content: center;
     display: inline-block;
     margin: 0 auto;
     width: 20%;

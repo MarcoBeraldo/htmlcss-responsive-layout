@@ -119,8 +119,13 @@
         max-width: calc(100% / 2 - 40px)
     }
 
+    #planning .bgc-white img {
+        max-width: 50%;
+    }
+
     #planning .row {
         width: 100%;
+        align-items: flex-end;
     }
 
     /* section #work-with-us */
